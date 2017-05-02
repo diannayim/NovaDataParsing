@@ -33,13 +33,18 @@ namespace NovaChemicalsServer
 
             if (Connection == null)
             {
-                string connString = "Server=199.116.235.43; database=novachemicals; UID=root; password=3beaseuofc!";
+                string connString = "Server=localhost; database=novachemicals; UID=root; password=3beaseuofc!";
                 connection = new MySqlConnection(connString);
                 connection.Open();
                 result = true;
             }
 
             return result;
+        }
+
+        public MySqlCommand CreateSQLCommand()
+        {
+            return connection.CreateCommand();
         }
     }
 }
