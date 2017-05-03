@@ -5,3 +5,10 @@ c:\users\aselab\documents\visual studio 2017\Projects\NovaChemicalsServer\NovaCh
 c:\users\aselab\documents\visual studio 2017\Projects\NovaChemicalsServer\NovaChemicalsServer\obj\Debug\NovaChemicalsServer.csprojResolveAssemblyReference.cache
 c:\users\aselab\documents\visual studio 2017\Projects\NovaChemicalsServer\NovaChemicalsServer\obj\Debug\NovaChemicalsServer.exe
 c:\users\aselab\documents\visual studio 2017\Projects\NovaChemicalsServer\NovaChemicalsServer\obj\Debug\NovaChemicalsServer.pdb
+D:\Developer\NovaDataParsing\NovaChemicalsServer\bin\Debug\NovaChemicalsServer.exe.config
+D:\Developer\NovaDataParsing\NovaChemicalsServer\obj\Debug\NovaChemicalsServer.exe
+D:\Developer\NovaDataParsing\NovaChemicalsServer\obj\Debug\NovaChemicalsServer.pdb
+D:\Developer\NovaDataParsing\NovaChemicalsServer\bin\Debug\NovaChemicalsServer.exe
+D:\Developer\NovaDataParsing\NovaChemicalsServer\bin\Debug\NovaChemicalsServer.pdb
+D:\Developer\NovaDataParsing\NovaChemicalsServer\bin\Debug\MySql.Data.dll
+D:\Developer\NovaDataParsing\NovaChemicalsServer\obj\Debug\NovaChemicalsServer.csprojResolveAssemblyReference.cache

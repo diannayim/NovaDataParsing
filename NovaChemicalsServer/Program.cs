@@ -21,13 +21,13 @@ namespace NovaChemicalsServer
                 string line;
                 bool notNull = true;
 
-                StreamReader file = new StreamReader("C:\\Users\\aselab\\Documents\\NovaChemData\\01-Metal-BaseCase.txt");
+                StreamReader file = new StreamReader("D:\\NovaChemData\\01-Metal-BaseCase.txt");
 
                 while (notNull)
                 {
                     MySqlCommand command = dbCon.CreateSQLCommand();
 
-                    while (counter < 100)
+                    while (counter < 1000)
                     {
                         line = file.ReadLine();
 
@@ -41,7 +41,7 @@ namespace NovaChemicalsServer
 
                         if (counter > 0)
                         {
-                            command.CommandText += "INSERT INTO data (filekey, cellnumber, xcoor, ycoor, zcoor, ppmvdryco, xvel, yvel, zvel, pressure, temperature, ch4, o2, co2, co, h2o, h2, cellvolume, density, turbkineticenergy, turbdissrate, viscositylam, specificheatcp) VALUES "
+                            command.CommandText += "INSERT INTO novadata (filekey, cellnumber, xcoor, ycoor, zcoor, ppmvdryco, xvelocity, yvelocity, zvelocity, pressure, temperature, ch4, o2, co2, co, h2o, h2, cellvolume, density, turbkineticenergy, turbdissrate, viscositylam, specificheatcp) VALUES "
                                 + "(?filekey_" + counter + ", ?cellnumber_" + counter + ", ?xcoor_" + counter + ", ?ycoor_" + counter + ", ?zcoor_" + counter + ", ?ppmvdryco_" + counter + ", ?xvel_" + counter + ", ?yvel_" + counter + ", ?zvel_" + counter + ", ?pressure_" + counter + ", ?temperature_" + counter
                                 + ", ?ch4_" + counter + ", ?o2_" + counter + ", ?co2_" + counter + ", ?co_" + counter + ", ?h2o_" + counter + ", ?h2_" + counter + ", ?cellvolume_" + counter + ", ?density_" + counter + ", ?turbkineticenergy_" + counter + ", ?turbdissrate_" + counter + ", ?viscositylam_" + counter + ", ?specificheatcp_" + counter + ");\n";
 
